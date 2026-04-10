@@ -11,7 +11,7 @@ int main() {
 char estado1; 
 char codigocarta1 [50]; 
 char nomecidade1 [50]; 
-int populacao1; 
+unsigned long int populacao1; 
 float area1; 
 float PIB1; 
 int turismo1; 
@@ -25,7 +25,7 @@ float PIB_percapita1;
 char estado2; 
 char codigocarta2 [50]; 
 char nomecidade2 [50]; 
-int populacao2; 
+unsigned long int populacao2; 
 float area2; 
 float PIB2; 
 int turismo2; 
