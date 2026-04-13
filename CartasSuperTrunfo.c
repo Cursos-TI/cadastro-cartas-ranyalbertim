@@ -93,7 +93,7 @@ scanf("%d", &turismo2);
 //calculando a densidade populacional e o PIB per capita da carta 2
 densidade_populacional2 = (float)populacao2 / area2;
 PIB_percapita2 = (float)PIB2/ populacao2;
-superPoder1 = (float)populacao1 + area1 + PIB1 + turismo1 + (1.0 / densidade_populacional1) + PIB_percapita1;
+superPoder2 = (float)populacao2 + area2 + PIB2 + turismo2 + (1.0 / densidade_populacional2) + PIB_percapita2;
 
 // Exibição dos Dados das Cartas: 
 //Carta 1 
@@ -118,7 +118,7 @@ printf("Densidade populacional: %.2f hab/km²\n", densidade_populacional1);
 
 printf("PIB per Capita: %.2f reais\n", PIB_percapita1);
 
-printf ("O seu Super Poder é : %2.f\n", superPoder1);
+printf ("O seu Super Poder é : %.2f\n", superPoder1);
 
 printf("--------------\n");
 
@@ -145,7 +145,7 @@ printf("Densidade populacional: %.2f hab/km²\n", densidade_populacional2);
 
 printf("PIB per Capita: %.2f reais\n", PIB_percapita2);
 
-printf ("O seu Super Poder é : %2.f\n", superPoder1);
+printf ("O seu Super Poder é : %.2f\n", superPoder2);
 
 //comparação entre as cartas
 
@@ -164,7 +164,7 @@ printf("\nComparação de Cartas:\n");
 
 printf("População: Carta 1 venceu (%d)\n", resultado_populacao);
 printf ("Área em KM²: Carta 1 venceu (%d)\n", resultado_area);
-printf ("PIB: Carta 1 vendeu (%d)\n", resultado_PIB);
+printf ("PIB: Carta 1 venceu (%d)\n", resultado_PIB);
 printf ("Pontos turísticos: Carta 1 venceu (%d)\n", resultado_turismo);
 printf ("Densidade populacional: Carta 2 venceu (%d)\n", resultado_densidade);
 printf ("PIB per Capita: Carta 1 venceu (%d)\n", resultado_PIBpercapita);
@@ -175,7 +175,7 @@ printf ("Super poder: Carta 1 venceu (%d)\n", resultado_SuperPoder);
 
 
 
-printf("Fim do cadastro das cartas!\n"); 
+printf("Fim do Jogo!\n"); 
 
 
 return 0; 
