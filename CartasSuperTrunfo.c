@@ -158,6 +158,21 @@ int resultado_densidade = densidade_populacional1 < densidade_populacional2; // 
 int resultado_PIBpercapita = PIB_percapita1 > PIB_percapita2;
 int resultado_SuperPoder = superPoder1 > superPoder2;
 
+//imprimindo os resultados
+
+printf("\nComparação de Cartas:\n");
+
+printf("População: Carta 1 venceu (%d)\n", resultado_populacao);
+printf ("Área em KM²: Carta 1 venceu (%d)\n", resultado_area);
+printf ("PIB: Carta 1 vendeu (%d)\n", resultado_PIB);
+printf ("Pontos turísticos: Carta 1 venceu (%d)\n", resultado_turismo);
+printf ("Densidade populacional: Carta 2 venceu (%d)\n", resultado_densidade);
+printf ("PIB per Capita: Carta 1 venceu (%d)\n", resultado_PIBpercapita);
+printf ("Super poder: Carta 1 venceu (%d)\n", resultado_SuperPoder);
+
+
+
+
 
 
 printf("Fim do cadastro das cartas!\n"); 
