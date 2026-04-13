@@ -118,6 +118,8 @@ printf("Densidade populacional: %.2f hab/km²\n", densidade_populacional1);
 
 printf("PIB per Capita: %.2f reais\n", PIB_percapita1);
 
+printf ("O seu Super Poder é : %2.f\n", superPoder1);
+
 printf("--------------\n");
 
 
@@ -142,6 +144,20 @@ printf("Número de pontos turísticos: %d\n", turismo2);
 printf("Densidade populacional: %.2f hab/km²\n", densidade_populacional2);
 
 printf("PIB per Capita: %.2f reais\n", PIB_percapita2);
+
+printf ("O seu Super Poder é : %2.f\n", superPoder1);
+
+//comparação entre as cartas
+
+printf("Comparando as cartas\n");
+int resultado_populacao = populacao1 > populacao2;
+int resultado_area = area1 > area2;
+int resultado_PIB = PIB1 > PIB2;
+int resultado_turismo = turismo1 > turismo2;
+int resultado_densidade = densidade_populacional1 < densidade_populacional2; // sinal invertido porque o menor vence
+int resultado_PIBpercapita = PIB_percapita1 > PIB_percapita2;
+int resultado_SuperPoder = superPoder1 > superPoder2;
+
 
 
 printf("Fim do cadastro das cartas!\n"); 
